@@ -1,0 +1,45 @@
+git init
+
+git add <file or directory name>
+git add .
+git add index.html
+git add css
+
+git commit -m "Commit message in quotes"
+git status
+
+git config <setting> <command>
+git config --global user.email "my@emailaddress.com"
+git config --global user.name "Brian Kerr"
+
+git config user.email "my@emailaddress.com"
+git config user.name "Brian Kerr"
+
+git branch <branch_name>
+git branch -a
+git branch -d <branch_name>
+
+git checkout <branch_name>
+git checkout -b <new_branch>
+
+git merge <branch_name>
+
+git remote <command> <remote_name> <remote_URL>
+git remote -v
+git remote add origin git@account_name.git.beanstalkapp.com:/acccount_name/repository_name.git
+
+git clone <remote_URL>
+git pull <branch_name> <remote_URL/remote_name>
+git pull origin staging
+git pull git@account_name.git.beanstalkapp.com:/acccount_name/repository_name.git staging
+
+git push <remote_URL/remote_name> <branch>
+git push —all
+
+git stash -u
+git stash pop
+
+git rm --cached <file name>
+git rm -f <file name>
+git rm -r --cached <directory name>
+git rm -r -f <file name>
